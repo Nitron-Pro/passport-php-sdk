@@ -1,0 +1,32 @@
+{
+    "name": "nitron/passport-php-sdk",
+    "description": "Official PHP SDK for Nitron Passport OTP SMS Gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nitron Team",
+            "homepage": "https://sms.nitron.pro"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nitron\\Passport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nitron\\Passport\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
