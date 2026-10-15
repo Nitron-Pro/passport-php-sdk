@@ -1,5 +1,9 @@
 # 🛂 Nitron Passport PHP SDK
 
+<p align="center">
+  <img src="assets/logo/logo-512.png" alt="Nitron Passport Logo" width="180">
+</p>
+
 کتابخانه رسمی PHP برای اتصال به درگاه احراز هویت و ارسال هوشمند کد اعتبارسنجی (OTP) **Nitron Passport**.
 
 ---
